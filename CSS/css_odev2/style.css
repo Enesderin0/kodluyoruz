@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    display:block;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.search{
+    text-align: center;
+    background: rgb(199, 196, 196);
+}
+button{
+    padding: 5px;
+    border: 1px black solid;
+}
+.clear{
+    clear: both;
+}
+/* alanlar bölümü css */
+.alanlar{
+    margin-top: 5px;
+}
+.alan1,.alan2,.alan3{
+    float: left;
+    text-align: center;
+    display: inline;   
+    width: 33%;
+    padding:5px;
+    height: 90px;
+}
+.alan1{
+    background-color: lightskyblue;
+    margin-right: 5px;
+    padding-top: 14px;
+}
+
+.alan2{
+    background-color: rgb(128, 153, 207);
+    padding-top: 8px;
+}
+
+.alan3{
+    background-color: rgb(68, 108, 160);
+    margin-left: 5px;
+}
+/* footer css */
+footer{
+    text-align: center;    
+    margin: 25px;
+}
