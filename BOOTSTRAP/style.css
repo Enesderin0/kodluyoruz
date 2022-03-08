@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li a{
+    color: white;
+}
+div nav{
+    padding: 10px;
+}
+nav li{
+    float: left;
+    margin-right:15px ;
+    list-style-type: none;
+}
+div nav li:first-child{
+    margin-left: 25px;
+}
+main {
+    text-align: center;
+}
+main ul li{
+    list-style-position: inside;
+}
+button{
+    background-color: #fff;
+    border: lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+button a{
+    color: #fff;
+}
+h1{
+    color: #6610f2;
+}
+.card-text{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: gray;
+    color: #fff;
+    padding: 5px;
+}
