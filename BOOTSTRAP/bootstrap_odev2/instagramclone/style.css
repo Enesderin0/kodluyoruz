@@ -55,4 +55,9 @@ input.empty {
   margin-bottom: 30px;
   border:none;
 }
-
+.card-body>a>img{
+  position:absolute; 
+}
+.card-body>a>span{
+  margin-top: 20px;
+}
